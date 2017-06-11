@@ -15,12 +15,7 @@ body {
     line-height: 1.44;
 }
 
-@media only screen and (orientation: landscape) {
-    body {
-    }
-}
-
-span, div {
+div .content {
     opacity: 0;
     -moz-opacity: 0;
     filter:alpha(opacity=0);

@@ -3,6 +3,9 @@
 #export("title") { Hello, #(name)! }
 
 #export("content") {
+    <div class='menu'>
+        <span>some text<br>some other text</span>
+    </div>
 	<h1>Hello, #(name)!</h1>
 }
 
