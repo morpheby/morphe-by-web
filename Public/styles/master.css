@@ -8,22 +8,28 @@ body, html {
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato-Thin", sans-serif;
     background: white;
     color: #D7A1D8;
     font-size: 1.5rem;
     line-height: 1.44;
 }
 
-div .content {
+#main p {
+    font-weight: 100;
+    /* So the animation changes font snoothing in safari and apparently nothing
+      can be done about that... */
+}
+
+div #content {
     opacity: 0;
     -moz-opacity: 0;
     filter:alpha(opacity=0);
 }
 
-h1, h2, h3 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: thin;
+#main h1, h2, h3 {
+    font-family: "Open Sans-Light", sans-serif;
+    font-weight: 300;
 }
 
 .body-animate {
@@ -31,6 +37,16 @@ h1, h2, h3 {
     animation-name: body-fadein;
     animation-duration: 0.9s;
     animation-timing-function: ease-in
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small,
+.h3 .small, .h3 small, .h4 .small, .h4 small,
+.h5 .small, .h5 small, .h6 .small, .h6 small,
+h1 .small, h1 small, h2 .small, h2 small, h3 .small,
+h3 small, h4 .small, h4 small, h5 .small, h5 small,
+h6 .small, h6 small {
+    color: #6E536E;
+    font-weight: 300;
 }
 
 .content-animate {

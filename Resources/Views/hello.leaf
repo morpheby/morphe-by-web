@@ -1,11 +1,25 @@
 #extend("base")
 
-#export("title") { Hello, #(name)! }
+#export("title") { Ilya Mikhaltsou — morphe.by }
 
 #export("content") {
-    <div class='menu'>
-        <span>some text<br>some other text</span>
-    </div>
-	<h1>Hello, #(name)!</h1>
+	<h1>morphe.by <small>A&nbsp;small&nbsp;introduction</small></h1>
+	<p class='lead'>
+		<em>morpheby</em> is Ilya Mikhaltsou.
+	</p>
+	<p>
+		Hi! I'm Ilya Mikhaltsou. I'm a Software Developer focusing on iOS and Mac
+		and AI/ML explorer.
+	</p>
+	<p>
+		See my <a href="https://blog.morphe.by">blog</a>,
+		<a href="https://github.com/morpheby">GitHub</a>,
+		<a href="https://linkedin.com/in/morpheby/">LinkedIn</a>,
+		<a href="https://keybase.io/morpheby">KeyBase</a>,
+<a href="https://twitter.com/morpheby">Twitter</a>.
+	</p>
+	<p>
+		Also, here is my latest <a href="/static/resume.pdf">resume</a>.
+	</p>
 }
 
